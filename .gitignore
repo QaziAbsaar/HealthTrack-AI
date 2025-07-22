@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+.expo/
+.expo-shared/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+web-build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# React Native
+*.bundle
+*.sourcemap.js
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# Local SQLite database files (if any get created during development)
+*.db
+*.sqlite
+*.sqlite3
+
+# API keys and sensitive data
+api-keys.json
+secrets.json
+
+# iOS
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcuserstate
+*.p8
+
+# Android
+android/app/build/
+android/build/
+*.apk
+*.aab
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Expo
+.expo/
+web-build/

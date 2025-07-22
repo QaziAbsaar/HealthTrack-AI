@@ -1,0 +1,32 @@
+{
+  "name": "medical-report-organizer",
+  "slug": "medical-report-organizer",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "userInterfaceStyle": "automatic",
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "infoPlist": {
+      "NSCameraUsageDescription": "This app needs access to camera to capture medical reports.",
+      "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select medical reports."
+    }
+  },
+  "android": {
+    "permissions": [
+      "android.permission.CAMERA",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "web": {
+  },
+  "plugins": [
+    "expo-camera",
+    "expo-document-picker",
+    "expo-image-picker",
+    "expo-notifications"
+  ]
+}
