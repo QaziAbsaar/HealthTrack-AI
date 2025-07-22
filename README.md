@@ -1,6 +1,6 @@
 # Medical Report Organizer App 🏥
 
-A comprehensive mobile application built with **VibeCoding x Trae** framework for organizing and managing medical reports with AI-powered OCR and analysis features.
+A comprehensive mobile application built for organizing and managing medical reports with AI-powered OCR and analysis features.
 
 ## 🎯 Target Users
 
